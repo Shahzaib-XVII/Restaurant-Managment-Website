@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Restaurants</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1 class="logo">🍽️ FlavorCheck</h1>
+        <button class="btn" onclick="window.location.href='dashboard.html'">Back to Dashboard</button>
+    </nav>
+
+    <!-- Search Bar -->
+    <section class="search-section">
+        <input type="text" id="search-box" onkeyup="filterRestaurants()" placeholder="Search for a restaurant...">
+    </section>
+
+    <!-- Restaurant Grid -->
+    <section class="restaurant-list" id="restaurant-grid">
+        <div class="restaurant">
+            <img src="assets/ranchers.jpg" alt="Ranchers">
+            <div class="restaurant-info">
+                <h3>Ranchers</h3>
+                <p>Delicious burgers and grilled treats.</p>
+                <div class="rating">
+                    <span class="star active">★</span><span class="star active">★</span><span class="star active">★</span><span class="star">★</span><span class="star">★</span>
+                </div>
+            </div>
+        </div>
+    
+        <div class="restaurant">
+            <img src="assets/brim.webp" alt="BRIM">
+            <div class="restaurant-info">
+                <h3>BRIM</h3>
+                <p>Modern fusion dining experience.</p>
+                <div class="rating">
+                    <span class="star active">★</span><span class="star active">★</span><span class="star active">★</span><span class="star active">★</span><span class="star">★</span>
+                </div>
+            </div>
+        </div>
+    
+        <div class="restaurant">
+            <img src="assets/kabul.webp" alt="Kabul Restaurant">
+            <div class="restaurant-info">
+                <h3>Kabul Restaurant</h3>
+                <p>Authentic Afghan cuisine.</p>
+                <div class="rating">
+                    <span class="star active">★</span><span class="star active">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+                </div>
+            </div>
+        </div>
+    
+        <div class="restaurant">
+            <img src="assets/cheesious.png" alt="Cheesious">
+            <div class="restaurant-info">
+                <h3>Cheesious</h3>
+                <p>Fastest Growing Brand of the Year. Made with fresh, local ingredients and love.</p>
+                <div class="rating">
+                    <span class="star active">★</span><span class="star active">★</span><span class="star active">★</span><span class="star">★</span><span class="star">★</span>
+                </div>
+            </div>
+        </div>
+    
+        <div class="restaurant">
+            <img src="assets/sallys.png" alt="Sallys">
+            <div class="restaurant-info">
+                <h3>Sallys</h3>
+                <p>One of the best beef burgers place in town.</p>
+                <div class="rating">
+                    <span class="star active">★</span><span class="star active">★</span><span class="star active">★</span><span class="star active">★</span><span class="star active">★</span>
+                </div>
+            </div>
+        </div>
+    
+        <div class="restaurant">
+            <img src="assets/texas.jpeg" alt="Texas Steakhouse">
+            <div class="restaurant-info">
+                <h3>Texas Steakhouse </h3>
+                <p>Best steaks and ribs.</p>
+                <div class="rating">
+                    <span class="star active">★</span><span class="star active">★</span><span class="star active">★</span><span class="star active">★</span><span class="star">★</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="restaurant">
+            <img src="assets/khoka.jpeg" alt="khoka khola">
+            <div class="restaurant-info">
+                <h3>Khoka kola</h3>
+                <p>Fresh and vibrant desi food.</p>
+                <div class="rating">
+                    <span class="star active">★</span><span class="star active">★</span><span class="star active">★</span><span class="star">★</span><span class="star">★</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="restaurant">
+            <img src="assets/wok.png" alt="Asian wok">
+            <div class="restaurant-info">
+                <h3>Asian wok</h3>
+                <p> Enjoy savory selection of our excellent Chinese, Japanese, and Thai.</p>
+                <div class="rating">
+                    <span class="star active">★</span><span class="star active">★</span><span class="star active">★</span><span class="star">★</span><span class="star">★</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="restaurant">
+            <img src="assets/khabby.jpeg" alt="Khabby ki Sajji">
+            <div class="restaurant-info">
+                <h3>Khabby ki Sajji</h3>
+                <p>Traditional and authentic chicken sajji you can taste in Islamabad .</p>
+                <div class="rating">
+                    <span class="star active">★</span><span class="star active">★</span><span class="star active">★</span><span class="star">★</span><span class="star">★</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

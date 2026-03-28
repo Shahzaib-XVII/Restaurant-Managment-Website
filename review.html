@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write a Review - Foodie Reviews</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1 class="logo">🍽️ FlavorCheck</h1>
+        <button class="btn" onclick="window.location.href='dashboard.html'">Back to Dashboard</button>
+    </nav>
+
+    <!-- Review Form -->
+    <section class="review-section">
+        <h2>Write a Review</h2>
+
+        <!-- Select Restaurant -->
+        <label for="restaurant">Choose a restaurant:</label>
+        <select id="restaurant">
+            <option value="Ranchers">Ranchers</option>
+            <option value="BRIM">BRIM</option>
+            <option value="Kabul Restaurant">Kabul Restaurant</option>
+        </select>
+
+        <!-- Star Rating -->
+        <div class="rating">
+            <span class="star" data-value="5">★</span>
+            <span class="star" data-value="4">★</span>
+            <span class="star" data-value="3">★</span>
+            <span class="star" data-value="2">★</span>
+            <span class="star" data-value="1">★</span>
+        </div>
+
+        <!-- Review Text -->
+        <textarea id="review-text" placeholder="Write your review here..."></textarea>
+
+        <!-- Submit Button -->
+        <button class="submit-btn" onclick="submitReview()">Submit Review</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
